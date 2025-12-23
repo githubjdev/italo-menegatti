@@ -9,6 +9,11 @@ public class Pedido {
 		this.id = id;
 		this.status = status;
 	}
+	
+	
+	public Pedido() {
+		// TODO Auto-generated constructor stub
+	}
 
 	public String getId() {
 		return id;

@@ -12,4 +12,11 @@
 		<maven.compiler.source>21</maven.compiler.source>
 		<maven.compiler.target>21</maven.compiler.target>
 	</properties>
+
+
+	<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-util -->
+	<dependency>
+		<groupId>org.apache.tomcat</groupId>
+		<artifactId>tomcat-util</artifactId>
+	</dependency>
 </project>
