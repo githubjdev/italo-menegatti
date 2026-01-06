@@ -14,6 +14,12 @@ public class Pessoa {
 		this.login = login;
 	}
 
+	public Pessoa(String login, String nome, int idade) {
+		this.login = login;
+		this.nome = nome;
+		this.idade = idade;
+	}
+
 	public String getLogin() {
 		return login;
 	}
