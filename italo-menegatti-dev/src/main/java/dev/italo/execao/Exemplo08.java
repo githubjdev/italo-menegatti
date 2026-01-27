@@ -8,8 +8,9 @@ public class Exemplo08 {
 			
 		 try {
 		   int resultado = 10 / 0;
+		   
 		 }catch (Exception e) {
-			
+			e.printStackTrace(); /*Erro cai aqui dentro*/
 		}
 		   
 	}
