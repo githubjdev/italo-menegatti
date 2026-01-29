@@ -6,11 +6,27 @@ public class Produto {
 
 	private String nome;
 	private double valor;
+	private boolean ativo;
 
 	public Produto(String nome, double valor) {
 		super();
 		this.nome = nome;
 		this.valor = valor;
+	}
+
+	public Produto(String nome, double valor, boolean ativo) {
+		super();
+		this.nome = nome;
+		this.valor = valor;
+		this.ativo = ativo;
+	}
+
+	public void setAtivo(boolean ativo) {
+		this.ativo = ativo;
+	}
+
+	public boolean getAtivo() {
+		return ativo;
 	}
 
 	public Long getId() {
